@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 411300100}
   - component: {fileID: 411300101}
   m_Layer: 0
-  m_Name: Fill Light
+  m_Name: KeyLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -718,8 +718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d222200145056644b7a92dafcba7d76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyLight: {fileID: 1265730695}
-  fillLight: {fileID: 411300101}
+  keyLight: {fileID: 411300101}
+  fillLight: {fileID: 1265730695}
   backLight: {fileID: 1307975146}
 --- !u!1 &1265730693
 GameObject:
@@ -732,7 +732,7 @@ GameObject:
   - component: {fileID: 1265730694}
   - component: {fileID: 1265730695}
   m_Layer: 0
-  m_Name: Key Light
+  m_Name: FillLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
